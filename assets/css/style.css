@@ -17,7 +17,7 @@ header {
     border-bottom: 1px solid #cccccc;
     display: block;
     position:relative;
-    height: 100px;
+    height: 78px;
 }
 .name {
     background-color: #4aaaa5;
@@ -39,7 +39,7 @@ header a {
     display: inline-block;
     position: absolute;
     right: 0px;
-    padding: 40px 20px;
+    padding: 30px 5px 20px 0px;
 }
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -72,7 +72,10 @@ form label{
     line-height: 2;
 }
 form #name input {
-    padding-left: 500px;
+    padding-right: 640px;
+}
+form #email input {
+    padding-right: 640px;
 }
 footer {
     position: absolute;
